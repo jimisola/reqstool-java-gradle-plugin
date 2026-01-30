@@ -24,6 +24,7 @@ gradlePlugin {
             implementationClass = 'se.lfv.reqstool.gradle.RequirementsToolPlugin'
             displayName = 'Reqstool Gradle Plugin'
             description = 'Gradle plugin for assembling and attaching reqstool ZIP artifacts'
+            tags.set(['reqstool', 'requirements', 'verification', 'testing'] )
         }
     }
 }
