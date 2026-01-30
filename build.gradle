@@ -2,6 +2,7 @@ plugins {
     id 'java-gradle-plugin'
     id 'java-library'
     id 'maven-publish'
+    id 'io.spring.javaformat' version '0.0.47'
 }
 
 group = 'se.lfv.reqstool'
